@@ -63,7 +63,6 @@ return packer.startup(function(use)
   use("L3MON4D3/LuaSnip") 
   use("mbbill/undotree")
 
-
   -- Colorscheme section
   use("gruvbox-community/gruvbox")
   use("folke/tokyonight.nvim")
