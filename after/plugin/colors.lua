@@ -1,4 +1,18 @@
-vim.g.kenjam_colorscheme = "tokyonight"
+-- vim.g.kenjam_colorscheme = "everforest"
+vim.g.kenjam_colorscheme = "gruvbox"
+
+--[[ require('naysayer').setup({ ]]
+--[[ 	variant = 'main', ]]
+--[[ 	dark_variant = 'main', ]]
+--[[ 	bold_vert_split = false, ]]
+--[[ 	dim_nc_background = false, ]]
+--[[ 	disable_background = true, ]]
+--[[ 	disable_float_background = true, ]]
+--[[ 	disable_italics = true, ]]
+--[[ }) ]]
+--[[]]
+
+vim.cmd("colorscheme " .. vim.g.kenjam_colorscheme)
 
 function ColorMyPencils()
     vim.g.gruvbox_contrast_dark = 'hard'

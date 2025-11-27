@@ -29,8 +29,6 @@ nmap("<leader>Y", "\"+Y")
 nnoremap("<leader>d", "\"_d")
 vnoremap("<leader>d", "\"_d")
 
-vnoremap("<leader>d", "\"_d")
-
 inoremap("<C-c>", "<Esc>")
 
 nnoremap("Q", "<nop>")
